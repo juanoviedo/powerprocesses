@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<title>Alcon de Colombia</title>
+</head>
+<body>
+	
+
+
+
+	<header class="headertop">
+
+		<div class="logo">
+			<img src="img/logoa.png">
+		</div>
+
+		<div class="socialcontainer">	
+
+			<div class="social">
+				<div>
+				<a><a class="icon-facebook-squared" href="https://www.facebook.com/Alc%C3%B3n-De-Colombia-Pabm-101319198099789">Facebook</a></a></div>
+
+				<div><a><a class="icon-instagram" href="http://www.facebook.com/etechingenieria">Instagram</a></a></div>
+
+				<div><a><a class="icon-twitter" href="http://www.facebook.com/etechingenieria">Twiter</a></a></div>
+				
+				<div><a><a class="icon-googleplus-rect" href="http://www.facebook.com/etechingenieria">Google</a></a></div>
+			</div>
+			<div class="social">
+				<div><a><a>Donde Encontrarnos</a></a></div>
+				<div><a><a>Contactenos</a></a></div>
+				<div><a><a>Acerca de Alcon</a></a></div>
+				<div><a><a>Actualidad</a></a></div>
+			</div>
+		</div>
+
+	</header>
+
+	<div class="navbar">
+		<input type="checkbox" id="btn-menu">
+		<label class="icon-menu" for="btn-menu" src="ico-menu.png"></label>
+		<!--<label for="btn-menu"><img class="icomenu" src="ico-menu.png"></label>-->
+		<nav class="menu">
+			<ul>
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Servicios</a></li>
+				<li><a href="">Avicultura</a></li>
+				<li><a href="">Ganadería</a></li>
+				<li><a href="">Porcicultura</a></li>
+				<li><a href="">Especies Menores</a></li>
+				<li><a href="">Mascotas</a></li>
+				<li><a href="">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="slideshow-container">
+		<div class="slides fade">
+			<!--<div class="number">1 / 4</div>-->
+			<div><img id="image-show"></div>
+		</div>
+
+		<a class="prev" onclick="plusIndex(-1)">&#10094</a>
+		<a class="next" onclick="plusIndex(+1)">&#10095</a>
+	</div>
+
+
+
+
+	<div class="lineasdenegocio">
+		LÍNEAS DE <b>NEGOCIO</b>
+	</div>
+
+	<div class="flex-container" id="flexcontainer">
+		
+		<a href="" id="model">
+			<div class="contenedorf">
+				<img class="image" src="img/chicken.jpg">
+
+				<div class="texto-encima verde">
+					AVICULTURA
+				</div>
+			</div>
+		</a>
+
+		<a href="">
+			<div class="contenedorf">
+				<img class="image" src="img/horse.jpg">
+
+				<div class="texto-encima naranja">
+					EQUINOS
+				</div>
+			</div>
+		</a>
+
+		<a href="">
+			<div class="contenedorf">
+				<img class="image" src="img/cow.jpg">
+
+				<div class="texto-encima verde">
+					GANADERÍA
+				</div>
+			</div>
+		</a>
+
+		<a href="">
+			<div class="contenedorf">
+				<img class="image" src="img/pig.jpg">
+
+				<div class="texto-encima naranja">
+					PORCICULTURA
+				</div>
+			</div>
+		</a>
+
+		<a href="" id="alastchild">
+			<div class="contenedorf">
+				<img class="image" src="img/dog.jpg">
+
+				<div class="texto-encima verde">
+					MASCOTAS
+				</div>
+			</div>
+		</a>
+
+		<a href="" id="plastchild">
+			<div class="contenedorf">
+				<img class="image" src="img/bunny.jpg">
+
+				<div class="texto-encima naranja">
+					CUNICULTURA
+				</div>
+			</div>
+		</a>
+
+		<a href="" id="lastchild">
+			<div class="contenedorf">
+				<img class="image" src="img/fish.jpg">
+
+				<div class="texto-encima verde">
+					ACUICULTURA
+				</div>
+			</div>
+		</a>
+
+	</div>
+
+
+	<div class="btn-whatsapp">   
+        <a href="https://wa.me/573168314501" target="_blank">
+            <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="Whatsapp Mantenimientos" style="width: 60;">
+        </a> 
+    </div>
+
+
+
+
+    <!-- formulario de contacto en html y css -->  
+
+	<div class="contact_form">
+
+		<div class="formulario">			
+	    	<h2>Formulario de contacto</h2>
+			<h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+
+
+				
+			<form action="submeter-formulario.php" method="post">				
+						
+		
+				<label for="nombre" class="colocar_nombre">Nombre:
+					<span class="obligatorio">*</span>
+				</label>
+					<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+			
+				<label for="email" class="colocar_email">
+					Email:
+					<span class="obligatorio">*</span>
+				</label>
+					<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+
+				
+				<label for="telefone" class="colocar_telefono">Teléfono:
+				</label>
+				<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+
+			
+			
+				<label for="asunto" class="colocar_asunto">Asunto:
+					<span class="obligatorio">*</span>
+				</label>
+					<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+
+				
+				<label for="mensaje" class="colocar_mensaje">Mensaje:
+				<span class="obligatorio">*</span>
+				</label>                     
+           		<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+	           	  								
+			
+				<button type="submit" name="enviar_formulario" id="enviar"><p>ENVIAR</p></button>
+
+				<p class="aviso">
+					<span class="obligatorio"> * </span>los campos son obligatorios.
+				</p>					
+						
+			</form>
+		</div>	
+	</div>
+
+
+
+
+	<footer>
+		<div class="border-limit">
+			<div class="container">
+				<h2>
+					Alcon de Colombia
+				</h2>
+
+				<p class="copy">Dirección: PLANTA: KM. 9 VÍA BUGA - LA MAGDALENA<br>
+							Buga<br>
+							Colombia<br>
+							<br>
+							Planta: +57 316 823 1030 <br>
+							Ventas:  317 435 4696 - 316 349 0583<br>
+							<br>
+							Email: ventas@alcondecolombia.com<br>
+							ventas2@alcondecolombia.com<br>
+							subgerencia@alcondecolombia.com</p>
+				<div class="sociales">
+					<a class="icon-facebook-squared" href="http://www.facebook.com/etechingenieria"></a>
+					<a class="icon-twitter" href="http://www.facebook.com/etechingenieria"></a>
+					<a class="icon-instagram" href="http://www.facebook.com/etechingenieria"></a>
+					<a class="icon-googleplus-rect" href="http://www.facebook.com/etechingenieria"></a>
+				</div>
+			</div>
+			<div class="container">
+				<h2>Ubicación de la Planta</h2>
+
+				<div class="mapouter"><div class="gmap_canvas"><iframe width="340" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=alcon%20de%20colombia&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://getasearch.com">getasearch.com</a><br><style>.mapouter{position:relative;text-align:right;height:250px;width:340px;}</style><a href="https://www.embedgooglemap.net">email google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:340px;}</style></div></div>
+
+			</div>
+			<div class="container">
+				<div class="formulario-footer">			
+			    	<h2>Contacto</h2>
+					<p>Escríbenos y en breve nos pondremos en contacto contigo</p>
+
+
+						
+					<form action="submeter-formulario.php" method="post">				
+								
+				
+						<label for="nombre" class="colocar_nombre">
+							Nombre:
+							<span class="obligatorioo">*</span>
+						</label>
+
+						<input type="text" name="introducir_nombre" id="nombre" required="Campo Obligatorio" placeholder="Escribe tu nombre">
+					
+											
+						<label for="telefone" class="colocar_telefono">
+							Celular:
+							<span class="obligatorioo">*</span>
+						</label>
+
+						<input required="Campo Obligatorio" type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+
+
+						<label for="Company" class="colocar_website">
+							Empresa:
+						</label>
+						
+						<input type="text" name="introducir_empresa" id="website" placeholder="Nombre de tu empresa">
+			          
+						<button type="submit" name="enviar_formulario" id="enviar"><p>ENVIAR</p></button>				
+								
+					</form>
+				</div>	
+			</div>
+		</div>
+	</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/gsap.js"></script>
+<script src="js/flexcontainer.js"></script>
+</body>
+</html>
