@@ -2,7 +2,7 @@
 
 let elem = document.getElementById("image-show");  // elem points image element to manupulate
 let slideIndex = 1;   // Inicialization of variable that moves from 1 to 4
-let numPic = 4; // Maximum pectures to slide on
+let numPic = 6; // Maximum pectures to slide on
 
 let opInterval; // Opacity timer that manipulates opacity of images
 let interval;	 // (timer) Interval of time to slide images
@@ -48,7 +48,7 @@ function showImage(n) {
 
 	elem.style.opacity = 0.4; // sets image opacity to 0.4
 
-	elem.src = "img/ban" + n + ".jpg"; // changes image source
+	elem.src = "{% static 'img/calicivita" + n + ".jpg' %}"; // changes image source
 
 	let opa = 0.4;						// restarts opacity value
 	opInterval = setInterval(frame, 10); // sets interval to change opacity each 10 ms
@@ -63,4 +63,3 @@ function showImage(n) {
 		}
 	}
 }
-
