@@ -61,7 +61,7 @@ header a:hover {
 
 @media (max-width: 360px) {
 	.logo{
-		max-height:40px;
+		max-height:30px;
 	}
 
 	header > div > a {
